@@ -4,7 +4,7 @@
 生成配置文件
 ------------
 
-.. code-block::
+.. code-block::plain
 
    $ php artisan vendor:publish
     Which provider or tag's files would you like to publish?:
@@ -21,7 +21,7 @@
 首先下载 sami , 放到 ``storage/sami/sami.phar`` 这个位置
 或者使用命令来下载, 如果不知道命令可以运行 ``php artisan system:doc sami`` 来查看下载文件的命令
 
-.. code-block::
+.. code-block::plain
 
    $ php artisan system:doc sami
 
@@ -35,7 +35,7 @@
 
 这样在 ``resources/sami/`` 目录下便会有两个文件 ``sami.phar`` 和 ``sami.php`` 我们可以运行 ``php artisan system:doc sami`` 来查看下生成文档的命令
 
-.. code-block::
+.. code-block::plain
 
    $ php artisan system:doc sami
    Please Run Command:
@@ -45,7 +45,7 @@
 
 由于 sami 最新版是基于 php7.1 版本的, 所以我们必须以相应的版本来运行. 如果版本不正确则无法运行
 
-.. code-block::
+.. code-block::plain
 
    $ php71 /data/workbench/www/wulicode/storage/sami/sami.phar update /data/workbench/www/wulicode/storage/sami/config.php
     Updating project 

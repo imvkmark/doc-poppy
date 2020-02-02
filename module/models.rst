@@ -23,7 +23,7 @@
 
 配置项目
 
-.. code-block::
+.. code-block::plain
 
    # 指定表名
    protected $table = '';
@@ -52,7 +52,7 @@
 
 使用 ``ide-helper`` 生成模型文档语法
 
-.. code-block::
+.. code-block::plain
 
    $ php artisan ide-helper:model "System\Models\PamAccount"
 
@@ -101,7 +101,7 @@
 
 **模型采用分组**
 
-.. code-block::
+.. code-block::plain
 
    base    # 后台
    pam     # 用户身份认证
@@ -112,7 +112,7 @@
 命名空间
 ~~~~~~~~
 
-.. code-block::
+.. code-block::plain
 
    <?php namespace {Module}\Models;
 
@@ -151,7 +151,7 @@
 * 
   数据库相关属性的字段放置在一起
 
-.. code-block::
+.. code-block::plain
 
    disable_reason      
    disabled_from_at    
@@ -165,7 +165,7 @@ kv 定义
 
 开发中不允许出现状态是 1, 2, 3, 所有的对应项目必须在模型中给予定义, 采用常量的方式进行定义
 
-.. code-block::
+.. code-block::plain
 
    const LOCK_LOCK    = 1;
    const LOCK_UNLOCK  = 0;
@@ -188,7 +188,7 @@ Enum 的使用
 
 开发中使用\ ``常量``\ 来替代 ``enum``\ , 不得使用 ``enum`` 来对数据库进行枚举, 公共的定义放置在\ ``BaseConfig`` 中
 
-.. code-block::
+.. code-block::plain
 
    class BaseConfig{
        const YES = 1;
@@ -208,7 +208,7 @@ Enum 的使用
 
 对于关联关系的命名, 采用简写格式. 例如我们需要关联用户表, 模型中需要如下定义
 
-.. code-block::
+.. code-block::plain
 
    class FinanceCash{
        // ...
@@ -226,7 +226,7 @@ Enum 的使用
 
 例如以下这个模型
 
-.. code-block::
+.. code-block::plain
 
     ...
     * @property int    $login_times  登录次数[成功请求接口便认定为1次]
@@ -255,7 +255,7 @@ Enum 的使用
 数据表常用字段
 ~~~~~~~~~~~~~~
 
-.. code-block::
+.. code-block::plain
 
    id               : 条目ID
    name             : 标示符, 只能是 英文
@@ -272,7 +272,7 @@ Enum 的使用
 索引命名
 ~~~~~~~~
 
-.. code-block::
+.. code-block::plain
 
    # 索引(index)
    item            k_base_config_item
@@ -286,7 +286,7 @@ Enum 的使用
 表创建
 ^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    $tb_pam   = (new PamAccount())->getTable();
    $tb_ft    = (new AccountFront())->getTable();
@@ -301,7 +301,7 @@ like搜索
 
 **多字段like**
 
-.. code-block::
+.. code-block::plain
 
    $kw = $request->input('kw');
    if ($kw) {
@@ -313,7 +313,7 @@ like搜索
 
 **单字段 like**
 
-.. code-block::
+.. code-block::plain
 
    $account_name = $request->input('account_name');
    if ($account_name) {
@@ -323,7 +323,7 @@ like搜索
 普通搜索
 ~~~~~~~~
 
-.. code-block::
+.. code-block::plain
 
    $wx_status = $request->input('wx_status');
    if ($wx_status) {
@@ -333,7 +333,7 @@ like搜索
 排序
 ~~~~
 
-.. code-block::
+.. code-block::plain
 
    $orderKey = in_array(SysSearch::key(), [
        'wx_fans',

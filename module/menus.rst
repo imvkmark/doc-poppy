@@ -10,7 +10,7 @@
 
 key 包含 backend(后端), develop(开发), web(前台)这几个部分. 
 
-.. code-block::
+.. code-block::plain
 
    backend:
        title: 地区管理

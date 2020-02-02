@@ -13,7 +13,7 @@
 文件的位置
 ~~~~~~~~~~
 
-.. code-block::
+.. code-block::plain
 
    # sass 源文件的位置, 使用的样式文件是 web.scss
    ~/resources/assets/scss/
@@ -40,7 +40,7 @@
 如何运行
 ~~~~~~~~
 
-.. code-block::
+.. code-block::plain
 
    # 安装 
    $ npm install 
@@ -53,13 +53,13 @@ apidoc 接口文档
 
 apidoc 是一个简单的 RESTful API 文档生成工具，它从代码注释中提取特定格式的内容，生成文档。
 
-.. code-block::
+.. code-block::plain
 
    php artisan system:doc api
 
 配置信息
 
-.. code-block::
+.. code-block::plain
 
    'apidoc' => [
        // key : 标识

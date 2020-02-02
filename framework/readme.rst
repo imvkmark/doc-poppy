@@ -25,13 +25,13 @@ Agamotto是DateTime的一个简单的PHP API扩展，是Carbon的亲戚, 这个�
 
 创建一个 Poppy 模块并启动它. 
 
-.. code-block::
+.. code-block::plain
 
    $ php artisan poppy:make {slug} [-Q|--quick]
 
 模块文件树: 
 
-.. code-block::
+.. code-block::plain
 
    ├── configurations        # 配置文件
    ├── docs                  # 文档
@@ -60,7 +60,7 @@ Agamotto是DateTime的一个简单的PHP API扩展，是Carbon的亲戚, 这个�
 
 列出所有的应用模块
 
-.. code-block::
+.. code-block::plain
 
    $ php artisan poppy:list
 
@@ -74,7 +74,7 @@ Agamotto是DateTime的一个简单的PHP API扩展，是Carbon的亲戚, 这个�
 启用/禁用模块
 ^^^^^^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    $ php artisan poppy:enable {slug}
    $ php artisan poppy:disable {slug}
@@ -84,14 +84,14 @@ Agamotto是DateTime的一个简单的PHP API扩展，是Carbon的亲戚, 这个�
 
 模块优化, 清空生成的缓存等操作
 
-.. code-block::
+.. code-block::plain
 
    $ php artisan poppy:optimize
 
 Poppy 数据库管理
 ^^^^^^^^^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    poppy:migrate           执行模块的数据库迁移文件
    poppy:migrate:refresh   重新执行模块数据库迁移文件
@@ -104,7 +104,7 @@ Poppy 生成器
 
 生成器工具
 
-.. code-block::
+.. code-block::plain
 
    php artisan poppy:command {slug} {name}
    php artisan poppy:controller {slug} {api/web} {name}
@@ -120,77 +120,77 @@ Poppy 生成器
 生成命令文件
 ^^^^^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    php artisan poppy:command {slug} {name}
 
 生成控制器文件
 ^^^^^^^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    php artisan poppy:controller {slug} {api/web} {name}
 
 生成中间件文件
 ^^^^^^^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    php artisan poppy:middleware {slug} {name}
 
 生成数据库模型文件
 ^^^^^^^^^^^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    php artisan poppy:model {slug} {name}
 
 生成policy策略文件
 ^^^^^^^^^^^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    php artisan poppy:policy {slug} {name}
 
 生成服务提供者provider文件
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    php artisan poppy:provider {slug} {name}
 
 生成request文件
 ^^^^^^^^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    php artisan poppy:request {slug} {name}
 
 生成种子文件
 ^^^^^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    php artisan poppy:seeder {slug} {name}
 
 写入种子
 ^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    php artisan poppy:seed
 
 生成测试文件
 ^^^^^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    php artisan poppy:test
 
 事件
 ----
 
-.. code-block::
+.. code-block::plain
 
    // Locale Changed
    Events\LocaleChanged($locale)
@@ -201,7 +201,7 @@ Poppy 生成器
 Helpers
 -------
 
-.. code-block::
+.. code-block::plain
 
    ArrayHelper
    CacheHelper
@@ -227,7 +227,7 @@ Helpers
 Blade 语法
 ----------
 
-.. code-block::
+.. code-block::plain
 
    @poppy
    // You Can check if module is exist and enabled.

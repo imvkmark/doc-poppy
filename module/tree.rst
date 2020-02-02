@@ -2,7 +2,7 @@
 模块目录树
 ----------
 
-.. code-block::
+.. code-block::plain
 
    ├── configurations       # 配置文件
    │   ├── pages.yaml

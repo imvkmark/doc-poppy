@@ -13,7 +13,7 @@
 项目目录树
 ^^^^^^^^^^
 
-.. code-block::
+.. code-block::plain
 
    ├── config              # 配置文件
    ├── extensions          # 扩展目录

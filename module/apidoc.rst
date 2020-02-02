@@ -12,14 +12,14 @@ A). 系统需要安装nodejs(略)
 
 B). 安装apidoc
 
-.. code-block::
+.. code-block::plain
 
    # 有些系统需要sudo 权限来安装
    $ npm install apidoc -g
 
 C). 执行生成
 
-.. code-block::
+.. code-block::plain
 
    # 这个文档的生成规则是 
    # apidoc 
@@ -38,7 +38,7 @@ C). 执行生成
 
 A) 生成文档
 
-.. code-block::
+.. code-block::plain
 
    $ apidoc -i myapp/ -o doc/api [-c ./] -f ".*\.js$"
 
@@ -53,7 +53,7 @@ A) 生成文档
 
 B) 项目配置
 
-.. code-block::
+.. code-block::plain
 
    {
        "name" : "项目名",
@@ -69,7 +69,7 @@ B) 项目配置
 
 ``apidoc`` 支持如下关键字：(下面 [ ] 中括号中表示是可选写的内容，使用时不用加 [ ] 中括号。)
 
-.. code-block::
+.. code-block::plain
 
    @api {method} path [title]
        只有使用@api标注的注释块才会在解析之后生成文档，title会被解析为导航菜单(@apiGroup)下的小菜单
@@ -126,7 +126,7 @@ B) 项目配置
 参数对齐
 ~~~~~~~~
 
-.. code-block::
+.. code-block::plain
 
    /**
     * @api                 {get} /api_prefix/check_verification [O]验证验证码
@@ -145,7 +145,7 @@ apiName 的命名规范是 apiGroup + functionName;
 apiName 的写法规范是 首字母大写的驼峰模式
 例如上面的命名规范是
 
-.. code-block::
+.. code-block::plain
 
    apiGroup : Home
    apiName  : HomeCheckVerification
@@ -192,7 +192,7 @@ apiName 的写法规范是 首字母大写的驼峰模式
 
 A). 接口命名
 
-.. code-block::
+.. code-block::plain
 
    lists      => 列表
    establish  => 创建/编辑
@@ -204,7 +204,7 @@ B). 参数命名
 C). 路由命名
 路由的名称和所在分组还有函数名进行匹配, 使用蛇形写法
 
-.. code-block::
+.. code-block::plain
 
    /**
     * @api                 {get} /dailian/bank/lists [O][B]银行账户列表
