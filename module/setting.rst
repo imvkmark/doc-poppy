@@ -5,7 +5,7 @@
 位置
 ^^^^
 
-配置文件放置于模块中, 采用 yaml 语法, 位置如下, ``{module}`` 代表模块名称 
+配置文件放置于模块中, 采用 yaml 语法, 位置如下, ``{module}`` 代表模块名称
 
 .. code-block:: text
 
@@ -74,10 +74,7 @@ input
    required: true
    type: input
 
-
-.. image:: https://cdn.nlark.com/yuque/0/2018/png/87644/1540957967622-31ca7349-14b5-44d7-baf1-e3ff36321aa4.png#width=400
-   :target: https://cdn.nlark.com/yuque/0/2018/png/87644/1540957967622-31ca7349-14b5-44d7-baf1-e3ff36321aa4.png#width=400
-   :alt: 
+.. image:: /_static/images/2020/0203/040443.png
 
 
 textarea
@@ -94,9 +91,7 @@ textarea
    type: textarea
 
 
-.. image:: https://cdn.nlark.com/yuque/0/2018/png/87644/1540957980639-031d4a50-39ff-4e63-8109-d0d42d995790.png#width=400
-   :target: https://cdn.nlark.com/yuque/0/2018/png/87644/1540957980639-031d4a50-39ff-4e63-8109-d0d42d995790.png#width=400
-   :alt: 
+.. image:: /_static/images/2020/0203/040454.png
 
 
 switch
@@ -112,10 +107,7 @@ switch
    placeholder: 开关切换
    type: switch
 
-
-.. image:: https://cdn.nlark.com/yuque/0/2018/png/87644/1540957996784-a7c9a33d-77f4-433e-a3b5-0320e669bfc3.png#width=205
-   :target: https://cdn.nlark.com/yuque/0/2018/png/87644/1540957996784-a7c9a33d-77f4-433e-a3b5-0320e669bfc3.png#width=205
-   :alt: 
+.. image:: /_static/images/2020/0203/040505.png
 
 
 picture
@@ -131,10 +123,7 @@ picture
    placeholder: 这里是上传图片的
    type: picture
 
-
-.. image:: https://cdn.nlark.com/yuque/0/2018/png/87644/1540958011716-537e6992-9f10-4cb5-8056-1d446fbc0e47.png#width=200
-   :target: https://cdn.nlark.com/yuque/0/2018/png/87644/1540958011716-537e6992-9f10-4cb5-8056-1d446fbc0e47.png#width=200
-   :alt: 
+.. image:: /_static/images/2020/0203/040515.png
 
 
 radio
@@ -153,10 +142,7 @@ radio
        aliyun: 阿里云
        local: 本地
 
-
-.. image:: https://cdn.nlark.com/yuque/0/2018/png/87644/1540958022362-ef27a3ec-18c5-4ba9-adb5-a8dbf3fdd142.png#width=240
-   :target: https://cdn.nlark.com/yuque/0/2018/png/87644/1540958022362-ef27a3ec-18c5-4ba9-adb5-a8dbf3fdd142.png#width=240
-   :alt: 
+.. image:: /_static/images/2020/0203/040525.png
 
 
 checkbox
@@ -175,10 +161,7 @@ checkbox
        aliyun: 阿里云
        local: 本地
 
-
-.. image:: https://cdn.nlark.com/yuque/0/2018/png/87644/1540958078118-3d20bbe2-6683-46f1-b748-4ee5c82d2fb2.png#width=260
-   :target: https://cdn.nlark.com/yuque/0/2018/png/87644/1540958078118-3d20bbe2-6683-46f1-b748-4ee5c82d2fb2.png#width=260
-   :alt: 
+.. image:: /_static/images/2020/0203/040534.png
 
 
 editor
@@ -194,10 +177,7 @@ editor
    placeholder: 编辑器
    type: editor
 
-
-.. image:: https://cdn.nlark.com/yuque/0/2018/png/87644/1540958127622-268926cd-4ad7-4809-9ed5-b88cbd87bf52.png#width=747
-   :target: https://cdn.nlark.com/yuque/0/2018/png/87644/1540958127622-268926cd-4ad7-4809-9ed5-b88cbd87bf52.png#width=747
-   :alt: 
+.. image:: /_static/images/2020/0203/040544.png
 
 
 hook
@@ -213,10 +193,7 @@ hook
    type: hook
    hook: 'ad.form_place_selection'
 
-
-.. image:: https://cdn.nlark.com/yuque/0/2018/png/87644/1540958157992-90d6164f-30da-47ac-bb14-8d08dfca36d7.png#width=370
-   :target: https://cdn.nlark.com/yuque/0/2018/png/87644/1540958157992-90d6164f-30da-47ac-bb14-8d08dfca36d7.png#width=370
-   :alt: 
+.. image:: /_static/images/2020/0203/040553.png
 
 
 使用
