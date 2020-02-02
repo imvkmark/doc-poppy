@@ -1,12 +1,10 @@
-
+README
+======
 
 .. image:: https://badges.gitter.im/poppy-framework/Lobby.svg
    :target: https://gitter.im/poppy-framework/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
    :alt: Join the chat at https://gitter.im/poppy-framework/Lobby
 
-
-English Document\ `Click Here <../README.md>`_\ ;
-Build 文档 `点击这里 <../docs/build.md>`_\ ;
 
 Agamotto
 --------
@@ -235,10 +233,17 @@ Blade 语法
    // You Can check if module is exist and enabled.
    @endpoppy
 
-鸣谢
-----
+鸣谢 & Docs
+-----------
 
 
 * `Yaml <http://nodeca.github.io/js-yaml/>`_
 * `EloquentFilter <https://github.com/Tucker-Eric/EloquentFilter>`_
 * `Sami <https://github.com/FriendsOfPHP/Sami>`_ 
+
+
+-  `EloquentFilter - 数据库过滤器 <https://github.com/Tucker-Eric/EloquentFilter/wiki>`_
+-  `Carbon - 时间组件 <https://segmentfault.com/a/1190000014239090>`_
+-  `Laravel Html & Form - Html/Form 封装 <https://segmentfault.com/a/1190000011580448>`_
+-  `hieu-le/active-Url状态组件 <https://laravel-china.org/topics/2858/extended-recommendation-hieu-leactive-according-to-the-url-generated-corresponding-navigation-active-state>`_
+-  `hashids/hashids - 对 ID 进行 Hash 加密 <https://github.com/vinkla/laravel-hashids>`_

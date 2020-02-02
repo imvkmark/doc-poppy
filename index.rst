@@ -3,24 +3,48 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-常用编辑器
+Poppy Framework
 ======================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Vscode
+   :caption: 框架/项目说明(Framework & Project)
    :numbered:
 
-   vscode/snippets
+   project/readme
+   framework/readme
+   framework/tree
+   framework/module
+   framework/extension
+   framework/error-code
 
 .. toctree::
    :maxdepth: 2
-   :caption: PhpStorm
+   :caption: 模块说明(Module)
    :numbered:
 
-   phpstorm/tip_a
-   phpstorm/tip_b
-   phpstorm/tip_c
+   module/tree
+   module/action
+   module/apidoc
+   module/event
+   module/languages
+   module/menus
+   module/models
+   module/permission
+   module/policy
+   module/setting
+
+.. toctree::
+   :maxdepth: 2
+   :caption: System 模块
+   :numbered:
+
+   system/hooks
+   system/user-type
+   system/progress
+   system/gen-php-doc
+   system/laravel-mix
+   system/be-ui
 
 Indices and tables
 ==================
