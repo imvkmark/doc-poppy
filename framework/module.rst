@@ -5,14 +5,14 @@
 功能开发流程
 ^^^^^^^^^^^^
 
-.. code-block::plain
+.. code-block:: text
 
    明白需求 --> 拆分功能点 (整理逻辑) --> 写代码 --> 完成功能
 
 单元测试
 --------
 
-.. code-block::plain
+.. code-block:: text
 
    首先安装PHPunit  PHPunit --version 可以查看是否安装和PHPunit版本
    PHPstorm配置:
@@ -24,7 +24,7 @@
 注册服务
 --------
 
-.. code-block::plain
+.. code-block:: text
 
    <?php namespace System;
 
@@ -135,7 +135,7 @@
 验证
 ----
 
-.. code-block::plain
+.. code-block:: text
 
    1.语言包
     - resource/lang/zh/validator.php

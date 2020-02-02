@@ -7,7 +7,7 @@
 
 配置文件放置于模块中, 采用 yaml 语法, 位置如下, ``{module}`` 代表模块名称 
 
-.. code-block::plain
+.. code-block:: text
 
    ~/modules/{module}/configurations/pages.yaml
 
@@ -17,7 +17,7 @@
 配置文件示例
 ~~~~~~~~~~~~
 
-.. code-block::plain
+.. code-block:: text
 
    system:
        initialization:
@@ -48,7 +48,7 @@ key 定义格式
 
 设置定义 key 的格式为
 
-.. code-block::plain
+.. code-block:: text
 
    namespace::group.item
        namespace   : 命名空间
@@ -64,7 +64,7 @@ input
 
 代表是输入框
 
-.. code-block::plain
+.. code-block:: text
 
    default: ''
    description: ''
@@ -85,7 +85,7 @@ textarea
 
 文本输入框, 多行文本
 
-.. code-block::plain
+.. code-block:: text
 
    default: ''
    label: Textarea
@@ -104,7 +104,7 @@ switch
 
 切换开关
 
-.. code-block::plain
+.. code-block:: text
 
    default: ''
    label: Switch
@@ -123,7 +123,7 @@ picture
 
 图片输入框类型
 
-.. code-block::plain
+.. code-block:: text
 
    default: ' '
    label: Picture
@@ -142,7 +142,7 @@ radio
 
 单选框, 支持的选项通过key opinions 定义
 
-.. code-block::plain
+.. code-block:: text
 
    default: 'aliyun'
    description: '单选框'
@@ -164,7 +164,7 @@ checkbox
 
 多选框, 支持的选项通过 key opinions 来定义
 
-.. code-block::plain
+.. code-block:: text
 
    default: 'aliyun,local'
    description: '多选框'
@@ -186,7 +186,7 @@ editor
 
 富文本编辑器
 
-.. code-block::plain
+.. code-block:: text
 
    default: ' '
    label: Editor
@@ -205,7 +205,7 @@ hook
 
 钩子
 
-.. code-block::plain
+.. code-block:: text
 
    default: ' '
    label: Hook
@@ -227,7 +227,7 @@ hook
 
 进行完成配置之后需要进行缓存的更新
 
-.. code-block::plain
+.. code-block:: text
 
    php artisan cache:clear
 
@@ -236,6 +236,6 @@ hook
 
 使用系统内置的函数来进行调用
 
-.. code-block::plain
+.. code-block:: text
 
    sys_setting('system::site.name')

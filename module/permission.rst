@@ -7,7 +7,7 @@
 
 权限解释 : backend:system.global.manage
 
-.. code-block::plain
+.. code-block:: text
 
    backend : 后台
    system  : 模块
@@ -41,7 +41,7 @@
 
 添加权限之后首先要对权限初始化才能够正确使用权限
 
-.. code-block::plain
+.. code-block:: text
 
    $ php artisan system:permission init
 
@@ -120,7 +120,7 @@
 
 *创建*
 
-.. code-block::plain
+.. code-block:: text
 
    @can('create', \Ad\Models\AdPlace::class)
        <a href="{{route_url('ad:backend.place.establish')}}"
@@ -131,7 +131,7 @@
 
 *编辑*
 
-.. code-block::plain
+.. code-block:: text
 
    @can('edit', $item)
        <a data-toggle="tooltip" title="编辑"

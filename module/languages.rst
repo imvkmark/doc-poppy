@@ -7,13 +7,13 @@
 
 公共语言位置: ``resource/lang/zh/``
 
-.. code-block::plain
+.. code-block:: text
 
    validator.php    # 验证文件, 和框架匹配的
 
 模块语言位置: ``modules/{module}/resources/lang`` 文件夹中
 
-.. code-block::plain
+.. code-block:: text
 
    action.php     # 存放业务逻辑
    db.php         # 存储数据库生成的注册说明(以后废弃掉, 使用 sys_db) 替代
@@ -23,7 +23,7 @@
 action.php
 ^^^^^^^^^^
 
-.. code-block::plain
+.. code-block:: text
 
    /* 验证码
     * ---------------------------------------- */
@@ -36,7 +36,7 @@ action.php
 
 Action 的文件的使用
 
-.. code-block::plain
+.. code-block:: text
 
    trans('system::action.captcha.account_no_password'),
 
@@ -45,7 +45,7 @@ db.php
 
 这里这个以后应该是从数据表生成的, 不需要自己填写
 
-.. code-block::plain
+.. code-block:: text
 
    # Key : 数据库的名称
    'pam_account'     => [
@@ -59,7 +59,7 @@ seo.php
 
 这里根据路由的名称来返回Seo的标题还有描述
 
-.. code-block::plain
+.. code-block:: text
 
    return [
        'web_layout_index'             => '页面布局',

@@ -5,7 +5,7 @@ progress 方式数据表更新
 访问地址
 ^^^^^^^^
 
-.. code-block::plain
+.. code-block:: text
 
    http://xxx.com/develop
    点击 数据表更新
@@ -19,7 +19,7 @@ progress 方式数据表更新
 
 在每个模块下 progress 文件夹下(没有新建)编写
 
-.. code-block::plain
+.. code-block:: text
 
    类命名规范 数据表名+改动(自定义)+progress
    class OrderHunterResultProgress implements Progress

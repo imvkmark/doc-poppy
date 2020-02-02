@@ -5,7 +5,7 @@
 安装
 ^^^^
 
-.. code-block:: plain
+.. code-block:: text
 
    $ php artisan system:install
    $ php artisan system:user create_user
@@ -13,7 +13,7 @@
 项目目录树
 ^^^^^^^^^^
 
-.. code-block::plain
+.. code-block:: text
 
    ├── config              # 配置文件
    ├── extensions          # 扩展目录

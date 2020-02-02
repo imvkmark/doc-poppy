@@ -23,7 +23,7 @@
 #. 
    事件需要继承 Poppy\Framework\Application\Event
 
-.. code-block::plain
+.. code-block:: text
 
    <?php namespace Poppy\Framework\Events;
 
@@ -48,7 +48,7 @@
 
 监听器放置位置在 ``modules/{module}/listeners/{event_folder}``  这个文件夹下, 文件夹名称和事件的名称相符合, 但是是蛇形写法.\ :raw-html-m2r:`<br />`\ 事件监听器必须为 DoWhatListener, 事件中需要体现 监听器的作用,并且必须是 Listener 后缀
 
-.. code-block::plain
+.. code-block:: text
 
    <?php namespace Order\Listeners\OrderBossIngCancel;
 

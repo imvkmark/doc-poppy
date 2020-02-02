@@ -16,7 +16,7 @@ Api 以Json 格式返回: 其中代表的含义如下:
 
 **有服务器错误**
 
-.. code-block::plain
+.. code-block:: text
 
    {
      "status": 500,
@@ -25,7 +25,7 @@ Api 以Json 格式返回: 其中代表的含义如下:
 
 **服务器无错误**
 
-.. code-block::plain
+.. code-block:: text
 
    {
      "status": 0,
@@ -39,7 +39,7 @@ Api 以Json 格式返回: 其中代表的含义如下:
 错误码说明
 ^^^^^^^^^^
 
-.. code-block::plain
+.. code-block:: text
 
    0   : 操作成功
    1   : 操作失败
@@ -62,7 +62,7 @@ Api 以Json 格式返回: 其中代表的含义如下:
 如果需要自定义错误码, 错误码需要定义在 Action 中
 错误码是 6 位的数字, 其中代表含义如下
 
-.. code-block::plain
+.. code-block:: text
 
    100101  : 错误码拆分为 3 部分 
    10   : 模块

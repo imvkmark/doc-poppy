@@ -15,7 +15,7 @@
 
 这里的注释在使用 WebStorm 的时候可以自动生成  ``/**`` 所有的函数都需要按照这种格式来写
 
-.. code-block::plain
+.. code-block:: text
 
    /**
     * 创建|编辑订单
@@ -37,7 +37,7 @@
 **数组注释**
 这里的注释方式和 Api接口注释方式一致
 
-.. code-block::plain
+.. code-block:: text
 
     *      {String} title     订单标题      <br />
     *      {Int}    server_id 服务器ID      <br />
@@ -48,7 +48,7 @@
 Code 定义, Code 定义在 Action 文件中, Action 为 6位的代码
 例如错误代码为 100101, 一般对于 app 有独特错误的才会进行返回, 例如这里支付密码不正确, 需要重新设置/找回支付密码, app 拿到这个代码可以进行相应的提示, 而不能够根据返回的错误提示进行相应操作. 错误提示可以更改, 错误代码一旦定义则不能更改.
 
-.. code-block::plain
+.. code-block:: text
 
    10        # 代表的是模块的名称
      01      # 代表的是本模块的Action 编号
@@ -59,7 +59,7 @@ Code 定义, Code 定义在 Action 文件中, Action 为 6位的代码
 
 这里的返回值必须是 ``true/false`` , 如果是需要获取返回数值, 需要定义 ``getXxx`` 方法来获取
 
-.. code-block::plain
+.. code-block:: text
 
    // 使用
    $Image = new Upload();
@@ -72,7 +72,7 @@ Code 定义, Code 定义在 Action 文件中, Action 为 6位的代码
 
 class 的定义
 
-.. code-block::plain
+.. code-block:: text
 
    /**
     * 图片上传

@@ -7,7 +7,7 @@ Composer 文件生成
 
 composer.json 文件解释
 
-.. code-block::plain
+.. code-block:: text
 
    {
        # 包名称, 可以自定义 package 名称, 蛇形写法
@@ -45,7 +45,7 @@ composer.json 文件解释
 第一步: 创建
 创建: 如果没有 ext-{package}/composer.json 中的时候
 
-.. code-block::plain
+.. code-block:: text
 
    $ composer init
 
@@ -53,13 +53,13 @@ composer 文件加载
 
 生成 autoload 文件
 
-.. code-block::plain
+.. code-block:: text
 
    $ composer update -vvv
 
 清空进行 poppy 优化,重置缓存, 加载当前包(From notadd)
 
-.. code-block::plain
+.. code-block:: text
 
    $ php artisan poppy:optimize
 
