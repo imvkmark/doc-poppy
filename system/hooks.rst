@@ -2,8 +2,9 @@
 钩子(hook)
 ----------
 
-服务的位置:modules/{module}/configurations/services.yaml
-hook 位置: modules/{module}/configurations/hooks.yaml
+服务的位置: ``modules/{module}/configurations/services.yaml``
+
+hook 位置: ``modules/{module}/configurations/hooks.yaml``
 
 服务和钩子的概念
 ^^^^^^^^^^^^^^^^
