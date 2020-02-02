@@ -5,7 +5,7 @@
 安装
 ^^^^
 
-.. code-block::
+.. code-block:: plain
 
    $ php artisan system:install
    $ php artisan system:user create_user
