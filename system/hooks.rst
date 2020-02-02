@@ -15,16 +15,22 @@ hook 位置: ``modules/{module}/configurations/hooks.yaml``
 #. service是 module 之间扩展的重要方式。
 #. 我们将 service 和 hook 看作是插槽与插头的关系。一个插槽可以插多个插头。
 #. 每个app下都会有一个service.yaml的文件，来描述本app的service,。
-   ### 使用
-   #### Array 类型
-   **定义service**
-   首先再services.yaml中定义如下内容
-   .. code-block:: yaml
 
-      system.api_info:
-       title: 系统接口
-       type: array
-       description: 系统信息接口调用, 系统信息返回的灵活数据
+使用
+^^^^^^^^^^^^^^^^
+
+Array 类型
+~~~~~~~~~~~
+**定义service**
+
+首先再services.yaml中定义如下内容
+
+.. code-block:: yaml
+
+   system.api_info:
+      title: 系统接口
+      type: array
+      description: 系统信息接口调用, 系统信息返回的灵活数据
 
 **定义 hooks**
 然后再hooks.yaml文件中,注册调用hook方法
