@@ -56,3 +56,16 @@
    │   └── WebApi
    │       └── User
    └── vendor              # 第三方文档(只是预览, 不做详细说明)
+
+
+单元测试
+^^^^^^^^^^
+
+.. code-block:: text
+
+   首先安装PHPunit  PHPunit --version 可以查看是否安装和PHPunit版本
+   PHPstorm配置:
+    - 在setting 搜索PHP 设置php版本
+    - 在php下 Test Frameworks 中设置 phpunit路径
+    - default bootstrap中设置框架自动加载文件目录
+   使用本框架的  php artisan poppy:test  模块名 测试文件名来创建测试文件

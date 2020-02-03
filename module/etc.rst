@@ -1,28 +1,8 @@
-
-模块(Module)
-------------
-
-功能开发流程
-^^^^^^^^^^^^
-
-.. code-block:: text
-
-   明白需求 --> 拆分功能点 (整理逻辑) --> 写代码 --> 完成功能
-
-单元测试
+其他
 --------
-
-.. code-block:: text
-
-   首先安装PHPunit  PHPunit --version 可以查看是否安装和PHPunit版本
-   PHPstorm配置:
-    - 在setting 搜索PHP 设置php版本
-    - 在php下 Test Frameworks 中设置 phpunit路径
-    - default bootstrap中设置框架自动加载文件目录
-   使用本框架的  php artisan poppy:test  模块名 测试文件名来创建测试文件
 
 注册服务
---------
+^^^^^^^^^
 
 .. code-block:: text
 
@@ -131,14 +111,3 @@
            'system.form',
        ];
    }
-
-验证
-----
-
-.. code-block:: text
-
-   1.语言包
-    - resource/lang/zh/validator.php
-   2.相应的验证规则
-    - Rule 类
-   3.FrameworkServiceProvider.php 验证正则规则

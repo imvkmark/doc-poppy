@@ -14,7 +14,6 @@ Poppy Framework
    project/readme
    framework/readme
    framework/tree
-   framework/module
    framework/extension
    framework/error-code
 
@@ -33,6 +32,7 @@ Poppy Framework
    module/permission
    module/policy
    module/setting
+   module/etc
 
 .. toctree::
    :maxdepth: 2
@@ -45,6 +45,7 @@ Poppy Framework
    system/gen-php-doc
    system/laravel-mix
    system/be-ui
+   system/best-practice
 
 Indices and tables
 ==================

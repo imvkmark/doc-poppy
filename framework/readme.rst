@@ -233,6 +233,17 @@ Blade 语法
    // You Can check if module is exist and enabled.
    @endpoppy
 
+验证
+----
+
+.. code-block:: text
+
+   1.语言包
+    - resource/lang/zh/validator.php
+   2.相应的验证规则
+    - Rule 类
+   3.FrameworkServiceProvider.php 验证正则规则
+
 鸣谢 & Docs
 -----------
 
