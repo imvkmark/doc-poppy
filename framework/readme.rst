@@ -23,19 +23,19 @@ Agamotto是DateTime的一个简单的PHP API扩展，是Carbon的亲戚, 这个�
 创建模块
 ^^^^^^^^
 
-创建一个 Poppy 模块并启动它. 
+创建一个 Poppy 模块并启动它.
 
 .. code-block:: text
 
    $ php artisan poppy:make {slug} [-Q|--quick]
 
-模块文件树: 
+模块文件树:
 
 .. code-block:: text
 
    ├── configurations        # 配置文件
    ├── docs                  # 文档
-   ├── resources             
+   ├── resources
    │   ├── lang              # 语言文件
    │   │   └── zh            # 语言文件夹
    │   └── views             # blade 模板
@@ -250,7 +250,7 @@ Blade 语法
 
 * `Yaml <http://nodeca.github.io/js-yaml/>`_
 * `EloquentFilter <https://github.com/Tucker-Eric/EloquentFilter>`_
-* `Sami <https://github.com/FriendsOfPHP/Sami>`_ 
+* `Sami <https://github.com/FriendsOfPHP/Sami>`_
 
 
 -  `EloquentFilter - 数据库过滤器 <https://github.com/Tucker-Eric/EloquentFilter/wiki>`_
