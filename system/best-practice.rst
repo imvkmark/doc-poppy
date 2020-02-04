@@ -136,24 +136,18 @@ IDE 项目配置
 ..
 
    右键忽略掉即可, 这个是生成的文件, 不需要进行 php 索引
-   ```
 
    前端文件
-   ========
-
    public/assets/css
    public/assets/font/fontawesome
    public/assets/js/system_cp.js
    public/assets/js/system_vendor.js
    public/assets/easy-web
 
-
-系统缓存, 文档
-==============
-
-storage/phplint
-storage/sami
-public/docs/*
+   系统缓存, 文档
+   storage/phplint
+   storage/sami
+   public/docs/*
 
 .. code-block:: text
 
@@ -198,7 +192,7 @@ public/docs/*
    #### 多图片/视频上传
 
 {!! Form::multiThumb('images', [], $options) !!}
-```
+
 
 .. list-table::
    :header-rows: 1

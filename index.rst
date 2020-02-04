@@ -22,6 +22,7 @@ Poppy Framework
    :caption: 模块说明(Module)
    :numbered:
 
+   module/spec
    module/tree
    module/action
    module/apidoc
