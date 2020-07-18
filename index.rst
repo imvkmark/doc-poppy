@@ -46,7 +46,7 @@ Poppy Framework
    system/gen-php-doc
    system/laravel-mix
    system/be-ui
-   system/best-practice
+   system/best-practice.md
 
 Indices and tables
 ==================
