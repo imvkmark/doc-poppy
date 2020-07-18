@@ -107,7 +107,18 @@ php artisan poppy:optimize
 
 ### 可以隐藏的目录
 
+右键忽略掉即可, 这个是生成的文件, 不需要进行 php 索引
+
 ```
+前端文件
+========
+public/assets/css
+public/assets/font/fontawesome
+public/assets/js/system_cp.js
+public/assets/js/system_vendor.js
+public/assets/easy-web
+```
+
 ### IDE 插件配置
 
 #### 插件 [.ignore](https://plugins.jetbrains.com/plugin/7495--ignore)
@@ -146,13 +157,14 @@ php artisan poppy:optimize
 ### 前端组件文档
 
 #### 多图片/视频上传
+
 ```
+{!! Form::multiThumb('images', [], $options) !!}
 
-{!! Form::multiThumb(\'images\', \[\], \$options) !!}
-
-  options    类型     默认值   备注
-  ---------- -------- -------- ------------------------------------------------------------------
-  pam        object   null     当前用户对象, 用于上传文件的授权
-  type       string   image    允许传入的文件类型支持 (image\*图片;video\*视频;picture\*音视频)
-  sequence   bool     false    是否支持排序
-  number     int      3        本表单允许上传的最大数量
+options    类型      默认值    备注
+---------- -------- -------- --------------------------------
+pam        object   null     当前用户对象, 用于上传文件的授权
+type       string   image    允许传入的文件类型支持 (image:图片;video:视频;picture:音视频)
+sequence   bool     false    是否支持排序
+number     int      3        本表单允许上传的最大数量
+```
